@@ -94,3 +94,10 @@ p {
   justify-content: center;
   align-items: center;
 }
+.passwords-display p:hover {
+  cursor: pointer;
+  background-color: #2f3e53;
+}
+.passwords-display p:active {
+  background-color: #1c1c1c;
+}

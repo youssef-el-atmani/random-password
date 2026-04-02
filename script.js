@@ -113,3 +113,10 @@ function generatePassword() {
 
   return passwordStr;
 }
+
+// copy password to clipboard
+const passwordsDisplayEl = document.querySelector(".passwords-display");
+
+passwordsDisplayEl.addEventListener("click", (e) => {
+  navigator.clipboard.writeText(e.target.textContent);
+});
