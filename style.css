@@ -19,3 +19,78 @@ html {
 h1 {
   margin: 0;
 }
+
+/* ##################### */
+/* || Custom Styling */
+/* ##################### */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Karla", sans-serif;
+}
+
+/* || section */
+
+section {
+  background-color: #1f2937;
+  width: 550px;
+  height: 550px;
+  padding: 115px 52px 0;
+}
+
+/* || h1 */
+h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+
+  display: flex;
+  flex-direction: column;
+}
+h1 span {
+  color: #4adf86;
+}
+
+p {
+  color: #939799;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 51px;
+}
+
+/* || btn */
+.generate-psw-btn {
+  padding: 9px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #10b981;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+}
+
+/* || line */
+.line {
+  border-bottom: 1px solid #2f3e53;
+  margin-block: 35px;
+}
+
+/* || Passwords display */
+.passwords-display {
+  display: flex;
+  gap: 24px;
+}
+.passwords-display p {
+  height: 40px;
+  flex: 1;
+  border-radius: 6px;
+  background-color: #273549;
+  color: #55f991;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
