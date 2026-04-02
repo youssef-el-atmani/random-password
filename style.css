@@ -72,6 +72,14 @@ p {
   color: #fff;
 }
 
+.generate-psw-btn:hover {
+  cursor: pointer;
+  background-color: #059669;
+}
+.generate-psw-btn:active {
+  background-color: #34d399;
+}
+
 /* || line */
 .line {
   border-bottom: 1px solid #2f3e53;
