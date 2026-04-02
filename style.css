@@ -14,3 +14,8 @@ html {
   padding: 0;
   margin: 0;
 }
+
+/* Override the NORMALIZE margin settings */
+h1 {
+  margin: 0;
+}
