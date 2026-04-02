@@ -116,7 +116,15 @@ function generatePassword() {
 
 // copy password to clipboard
 const passwordsDisplayEl = document.querySelector(".passwords-display");
+const copyFeedbackEl = document.querySelector(".copy-feedback");
 
 passwordsDisplayEl.addEventListener("click", (e) => {
   navigator.clipboard.writeText(e.target.textContent);
+
+  if (e.target.textContent !== "") {
+    copyFeedbackEl.textContent = "Copied Successfully!";
+    setTimeout(() => {
+      copyFeedbackEl.textContent = "";
+    }, 500);
+  }
 });

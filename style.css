@@ -101,6 +101,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 .passwords-display p:hover {
   cursor: pointer;
@@ -108,4 +109,9 @@ p {
 }
 .passwords-display p:active {
   background-color: #1c1c1c;
+}
+
+/* copy to clipboard feedback */
+.copy-feedback {
+  text-align: center;
 }
